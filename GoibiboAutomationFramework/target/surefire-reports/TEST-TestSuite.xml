@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="29.961" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="14"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\ramak\OneDrive\Desktop\New folder\GradeBEA\GoibiboAutomationFramework\drivers\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\ramak\OneDrive\Desktop\New folder\GradeBEA\GoibiboAutomationFramework\target\test-classes;C:\Users\ramak\OneDrive\Desktop\New folder\GradeBEA\GoibiboAutomationFramework\target\classes;C:\Users\ramak\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\ramak\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\ramak\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\ramak\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\ramak\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\ramak\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\ramak\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\ramak\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\ramak\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\ramak\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\ramak\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\ramak\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ramak\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\ramak\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\ramak\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\ramak\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\ramak\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\ramak\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\ramak\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\ramak\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\ramak\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\ramak\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\ramak\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\ramak\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\ramak\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\ramak\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ramak\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\ramak\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\ramak\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\ramak\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\ramak\.m2\repository\org\apache\poi\poi-ooxml\4.0.1\poi-ooxml-4.0.1.jar;C:\Users\ramak\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.0.1\poi-ooxml-schemas-4.0.1.jar;C:\Users\ramak\.m2\repository\org\apache\xmlbeans\xmlbeans\3.0.2\xmlbeans-3.0.2.jar;C:\Users\ramak\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\ramak\.m2\repository\com\github\virtuald\curvesapi\1.05\curvesapi-1.05.jar;C:\Users\ramak\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\ramak\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\ramak\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\ramak\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\ramak\.m2\repository\com\aventstack\extentreports\4.0.9\extentreports-4.0.9.jar;C:\Users\ramak\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\ramak\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\ramak\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\ramak\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\ramak\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\ramak\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\ramak\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ramak\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\ramak\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\ramak\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\ramak\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\ramak\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\ramak\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\ramak\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\ramak\AppData\Local\Temp\surefire12399744746542216903\surefirebooter12861039162872858474.jar C:\Users\ramak\AppData\Local\Temp\surefire12399744746542216903 2020-08-20T23-28-02_468-jvmRun1 surefire2492245443766335427tmp surefire_017870049446247957092tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\ramak\OneDrive\Desktop\New folder\GradeBEA\GoibiboAutomationFramework\target\test-classes;C:\Users\ramak\OneDrive\Desktop\New folder\GradeBEA\GoibiboAutomationFramework\target\classes;C:\Users\ramak\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\ramak\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\ramak\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\ramak\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\ramak\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\ramak\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\ramak\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\ramak\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\ramak\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\ramak\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\ramak\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\ramak\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ramak\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\ramak\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\ramak\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\ramak\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\ramak\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\ramak\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\ramak\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\ramak\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\ramak\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\ramak\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\ramak\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\ramak\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\ramak\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\ramak\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ramak\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\ramak\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\ramak\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\ramak\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\ramak\.m2\repository\org\apache\poi\poi-ooxml\4.0.1\poi-ooxml-4.0.1.jar;C:\Users\ramak\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.0.1\poi-ooxml-schemas-4.0.1.jar;C:\Users\ramak\.m2\repository\org\apache\xmlbeans\xmlbeans\3.0.2\xmlbeans-3.0.2.jar;C:\Users\ramak\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\ramak\.m2\repository\com\github\virtuald\curvesapi\1.05\curvesapi-1.05.jar;C:\Users\ramak\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\ramak\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\ramak\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\ramak\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\ramak\.m2\repository\com\aventstack\extentreports\4.0.9\extentreports-4.0.9.jar;C:\Users\ramak\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\ramak\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\ramak\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\ramak\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\ramak\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\ramak\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\ramak\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ramak\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\ramak\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\ramak\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\ramak\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\ramak\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\ramak\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\ramak\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ramak"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-04-14"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-14.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\ramak\OneDrive\Desktop\New folder\GradeBEA\GoibiboAutomationFramework"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="firstName" value="Ram"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\ramak\AppData\Local\Temp\surefire12399744746542216903\surefirebooter12861039162872858474.jar"/>
+    <property name="lastName" value="venkata"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="14.0.1+7"/>
+    <property name="user.name" value="ramak"/>
+    <property name="path.separator" value=";"/>
+    <property name="title" value="Mr"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\ramak\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ramak\AppData\Local\Temp\"/>
+    <property name="java.version" value="14.0.1"/>
+    <property name="user.dir" value="C:\Users\ramak\OneDrive\Desktop\New folder\GradeBEA\GoibiboAutomationFramework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="mobile" value="7878787878"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="emailID" value="ram@gmail.com"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-14.0.1\bin;C:\Program Files\nodejs\;C:\Users\ramak\AppData\Local\Android\Sdk;C:\Users\ramak\Desktop\Android-sdk-tools-windows-4333796\tools\bin;C:\Users\ramak\AppData\Local\Android\Sdk\platform-tools\adb.exe;C:\Program Files\Android\Android Studio\bin;C:\Users\ramak\AppData\Local\Android\Sdk\platform-tools;C:\Users\ramak\AppData\Local\Android\Sdk\tools;C:\Users\ramak\AppData\Local\Android\Sdk\build-tools;C:\Users\ramak\AppData\Local\Android\Sdk\tools\bin;C:\Users\ramak\OneDrive\Desktop\New folder\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Users\ramak\AppData\Local\Microsoft\WindowsApps;C:\Users\ramak\AppData\Roaming\npm;C:\Users\ramak\AppData\Local\GitHubDesktop\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="14.0.1+7"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="middleName" value="krishna"/>
+    <property name="java.class.version" value="58.0"/>
+  </properties>
+  <testcase name="roundTripDelhiToMumbai" classname="com.goibibo.qa.roundtripTest.goibiboRoundTripTest" time="19.051">
+    <system-out><![CDATA[Before navigating to: 'https://www.goibibo.com/'
+Navigated to:'https://www.goibibo.com/'
+Trying to find Element By : By.id: roundTrip
+Found Element By : By.id: roundTrip
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (3c96e8d994ed8da509b2ce479529302c)] -> id: roundTrip]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (3c96e8d994ed8da509b2ce479529302c)] -> id: roundTrip]
+Trying to find Element By : By.id: gosuggest_inputSrc
+Found Element By : By.id: gosuggest_inputSrc
+Trying to find Element By : By.id: react-autosuggest-1-suggestion--0
+Found Element By : By.id: react-autosuggest-1-suggestion--0
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (3c96e8d994ed8da509b2ce479529302c)] -> id: react-autosuggest-1-suggestion--0]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (3c96e8d994ed8da509b2ce479529302c)] -> id: react-autosuggest-1-suggestion--0]
+Trying to find Element By : By.id: gosuggest_inputDest
+Found Element By : By.id: gosuggest_inputDest
+Trying to find Element By : By.id: react-autosuggest-1-suggestion--0
+Found Element By : By.id: react-autosuggest-1-suggestion--0
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (3c96e8d994ed8da509b2ce479529302c)] -> id: react-autosuggest-1-suggestion--0]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (3c96e8d994ed8da509b2ce479529302c)] -> id: react-autosuggest-1-suggestion--0]
+Trying to find Element By : By.cssSelector: .DayPicker-NavButton.DayPicker-NavButton--next
+Found Element By : By.cssSelector: .DayPicker-NavButton.DayPicker-NavButton--next
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (3c96e8d994ed8da509b2ce479529302c)] -> css selector: .DayPicker-NavButton.DayPicker-NavButton--next]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (3c96e8d994ed8da509b2ce479529302c)] -> css selector: .DayPicker-NavButton.DayPicker-NavButton--next]
+Trying to find Element By : By.id: fare_20200916
+Found Element By : By.id: fare_20200916
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (3c96e8d994ed8da509b2ce479529302c)] -> id: fare_20200916]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (3c96e8d994ed8da509b2ce479529302c)] -> id: fare_20200916]
+Trying to find Element By : By.id: fare_20200928
+Found Element By : By.id: fare_20200928
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (3c96e8d994ed8da509b2ce479529302c)] -> id: fare_20200928]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (3c96e8d994ed8da509b2ce479529302c)] -> id: fare_20200928]
+Trying to find Element By : By.id: gi_search_btn
+Found Element By : By.id: gi_search_btn
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (3c96e8d994ed8da509b2ce479529302c)] -> id: gi_search_btn]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (3c96e8d994ed8da509b2ce479529302c)] -> id: gi_search_btn]
+Trying to find Element By : By.cssSelector: .ico13.icon-arrow2-up.hpyBlueLt 
+Found Element By : By.cssSelector: .ico13.icon-arrow2-up.hpyBlueLt 
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (3c96e8d994ed8da509b2ce479529302c)] -> css selector: .ico13.icon-arrow2-up.hpyBlueLt ]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (3c96e8d994ed8da509b2ce479529302c)] -> css selector: .ico13.icon-arrow2-up.hpyBlueLt ]
+Trying to find Element By : By.xpath: //div[1]/div/div[1]/div/div[2]/div[2]/div/span[2]/label
+Found Element By : By.xpath: //div[1]/div/div[1]/div/div[2]/div[2]/div/span[2]/label
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (3c96e8d994ed8da509b2ce479529302c)] -> xpath: //div[1]/div/div[1]/div/div[2]/div[2]/div/span[2]/label]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (3c96e8d994ed8da509b2ce479529302c)] -> xpath: //div[1]/div/div[1]/div/div[2]/div[2]/div/span[2]/label]
+Trying to find Element By : By.cssSelector: .ico13.icon-arrow2-up.hpyBlueLt
+Found Element By : By.cssSelector: .ico13.icon-arrow2-up.hpyBlueLt
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (3c96e8d994ed8da509b2ce479529302c)] -> css selector: .ico13.icon-arrow2-up.hpyBlueLt]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (3c96e8d994ed8da509b2ce479529302c)] -> css selector: .ico13.icon-arrow2-up.hpyBlueLt]
+Trying to find Element By : By.xpath: //div[2]/div/div[1]/div/div[2]/div[2]/div/span[2]/label
+Found Element By : By.xpath: //div[2]/div/div[1]/div/div[2]/div[2]/div/span[2]/label
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (3c96e8d994ed8da509b2ce479529302c)] -> xpath: //div[2]/div/div[1]/div/div[2]/div[2]/div/span[2]/label]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (3c96e8d994ed8da509b2ce479529302c)] -> xpath: //div[2]/div/div[1]/div/div[2]/div[2]/div/span[2]/label]
+Trying to find Element By : By.cssSelector: .button.fr.fltbook.fb.widthF105.quicks.fb
+Found Element By : By.cssSelector: .button.fr.fltbook.fb.widthF105.quicks.fb
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (3c96e8d994ed8da509b2ce479529302c)] -> css selector: .button.fr.fltbook.fb.widthF105.quicks.fb]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (3c96e8d994ed8da509b2ce479529302c)] -> css selector: .button.fr.fltbook.fb.widthF105.quicks.fb]
+Enter passinger Details:  
+Trying to find Element By : By.id: Adulttitle1
+Found Element By : By.id: Adulttitle1
+Trying to find Element By : By.xpath: .//option[normalize-space(.) = "Mr"]
+Found Element By : By.xpath: .//option[normalize-space(.) = "Mr"]
+Trying to click on: [[[[ChromeDriver: chrome on WINDOWS (3c96e8d994ed8da509b2ce479529302c)] -> id: Adulttitle1]] -> xpath: .//option[normalize-space(.) = "Mr"]]
+Clicked on: [[[[ChromeDriver: chrome on WINDOWS (3c96e8d994ed8da509b2ce479529302c)] -> id: Adulttitle1]] -> xpath: .//option[normalize-space(.) = "Mr"]]
+Mr title is selected in the dropdown
+Trying to find Element By : By.id: AdultfirstName1
+Found Element By : By.id: AdultfirstName1
+Ram firstname is entered
+Trying to find Element By : By.id: AdultmiddleName1
+Found Element By : By.id: AdultmiddleName1
+krishna middleName is entered
+Trying to find Element By : By.id: AdultlastName1
+Found Element By : By.id: AdultlastName1
+venkatalastName is entered
+Trying to find Element By : By.id: email
+Found Element By : By.id: email
+ram@gmail.com emailID is entered
+Trying to find Element By : By.id: mobile
+Found Element By : By.id: mobile
+7878787878 mobile number is entered
+Travel Protection
+Trying to find Element By : By.cssSelector: .fr.leadCheck.ins_chk.marginT10
+Found Element By : By.cssSelector: .fr.leadCheck.ins_chk.marginT10
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (3c96e8d994ed8da509b2ce479529302c)] -> css selector: .fr.leadCheck.ins_chk.marginT10]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (3c96e8d994ed8da509b2ce479529302c)] -> css selector: .fr.leadCheck.ins_chk.marginT10]
+Trying to find Element By : By.cssSelector: #travellerForm >div>button
+Found Element By : By.cssSelector: #travellerForm >div>button
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (3c96e8d994ed8da509b2ce479529302c)] -> css selector: #travellerForm >div>button]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (3c96e8d994ed8da509b2ce479529302c)] -> css selector: #travellerForm >div>button]
+Trying to find Element By : By.cssSelector: .dF.padT20>button
+Found Element By : By.cssSelector: .dF.padT20>button
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (3c96e8d994ed8da509b2ce479529302c)] -> css selector: .dF.padT20>button]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (3c96e8d994ed8da509b2ce479529302c)] -> css selector: .dF.padT20>button]
+Trying to find Element By : By.xpath: //span[@class='ico16 quicks f700']
+Found Element By : By.xpath: //span[@class='ico16 quicks f700']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (3c96e8d994ed8da509b2ce479529302c)] -> xpath: //span[@class='ico16 quicks f700']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (3c96e8d994ed8da509b2ce479529302c)] -> xpath: //span[@class='ico16 quicks f700']]
+Trying to find Element By : By.id: tab_wallet
+Found Element By : By.id: tab_wallet
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (3c96e8d994ed8da509b2ce479529302c)] -> id: tab_wallet]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (3c96e8d994ed8da509b2ce479529302c)] -> id: tab_wallet]
+Trying to find Element By : By.cssSelector: #walletPayNow > div > button
+Found Element By : By.cssSelector: #walletPayNow > div > button
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (3c96e8d994ed8da509b2ce479529302c)] -> css selector: #walletPayNow > div > button]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (3c96e8d994ed8da509b2ce479529302c)] -> css selector: #walletPayNow > div > button]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 19874
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 20, 2020 11:28:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
